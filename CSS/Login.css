@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0; /* Enlever le padding par défaut */
+}
+
+.container {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%; 
+    max-width: 400px; 
+    text-align: center;
+}
+
+.logo {
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 20px; /* Espace en dessous du logo */
+}
+
+h2 {
+    margin-bottom: 20px; 
+}
+
+.input-group {
+    margin-bottom: 15px; 
+    text-align: left; 
+}
+
+input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+button {
+    width: 100%; 
+    padding: 13px; 
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 15px ; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+/* Styles supplémentaires pour la responsivité */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px; 
+    }
+
+    h2 {
+        font-size: 1.5em; 
+    }
+
+    input {
+        padding: 8px; 
+    }
+
+    button {
+        padding: 13px; 
+    }
+}

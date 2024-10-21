@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* header {
+    background-color: transparent; 
+    padding: 20px;
+}
+
+#logo {
+    width: 180px; 
+    margin: 20px auto;
+    display: block; 
+}
+
+.btn-logout {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-logout:hover {
+    background-color: darkred;
+} */
+
+
+.control-box {
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+.control-box h2 {
+	margin-bottom: 20px;
+}
+.control-box a {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 10px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #007bff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.control-box a:hover {
+	background-color: #0056b3;
+}
